@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    background-image:url("pexels-tyler-hendy-54123.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+}
+header{
+    display: flex;
+    background-color: rgb(185, 185, 206);
+    margin: 0;
+    box-shadow: 5px 3px 10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    font-weight:bolder ;
+    text-decoration: none;
+}
+.kegg, .josh, .hello{
+    height: 50px;
+    width: 50px;
+    background-color: mediumpurple;
+    border: solid 2px;
+}
+.ayo{
+    display: flex;
+    justify-content: space-around;
+}
+input:focus{
+    background-color: aqua;
+}
